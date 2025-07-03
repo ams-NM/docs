@@ -4,10 +4,11 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "NM Team Knowledge Base",
   description: "A VitePress Site",
+  base: '/docs',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/docs/' },
+      { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }
     ],
 
